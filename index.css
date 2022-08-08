@@ -1,0 +1,285 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-top: 5%;
+    padding-bottom: 8.6%;
+    background-color: #FCF8FC;
+    overflow-x: hidden;
+}
+.nav-menu{
+    float: right;
+}
+.nav-menu li{
+    display: flex;
+}
+.nav-ul a{
+    text-decoration: none;
+    color: #78C8CF;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    padding: 3.5vmin;
+    font-size: 1.4vw;  
+}
+.nav-ul a:hover{
+    text-decoration: none;
+    color: #69b3b9;
+}
+.nav-ul a:hover{
+    font-weight: 800;
+    
+}
+.nav{
+    border: 0.1vw solid #78C8CF;
+    border-radius: 1.5px;
+    margin-left:1.8vw;
+    margin-top: 0.02vw;
+}
+.isim{
+    color: #19132E;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 800;
+    font-size: 5.7vw;
+}
+.name-line {
+    border: 0.2vw solid #19132E;
+    border-radius: 3px;
+    width: 48vw;
+    margin-left: -30%;
+}
+.yazi{
+    color: #8B7DB9;
+    font-size: 2.3vw;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.yazi-line{
+    border: 0.2vw solid #8B7DB9;
+    border-radius: 3px;
+    width: 50vw;
+    margin-right: -25vw;
+}
+.ok{
+    display: block;
+    margin-top: 45vmin;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+}
+.ok:hover{
+    transform: scale(1.3);
+}
+.about{
+    color: #78C8CF;
+    font-size: 4.06vw;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.about-line{
+    border: 0.2vw solid #78C8CF;
+    border-radius: 3px;
+    width: 34vw;
+    margin-left: -18vw;
+}
+.about-yazi{
+    color: #19132E;
+    font-size: 1.354vw;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    padding-top: 2.15vmin;
+}
+.rel{
+    color: #8B7DB9;
+    font-size: 2.03125vw;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.rel-line{
+    border: 0.1vw solid #8B7DB9;
+    border-radius: 1.5px;
+    width: 32vw;
+    margin-left: -18vw;
+}
+.rel-ders{
+    display: flex;
+    padding-top: 2.15vmin;
+}
+.ders{
+    color: #19132E;
+    font-size: 1.25vw;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.intern{
+    color: #8B7DB9;
+    font-size: 2.03vw;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.intern-line{
+    border: 0.1vw solid #8B7DB9;
+    border-radius: 1.5px;
+    width: 37vw;
+    margin-left: -18vw;
+}
+.intern-yazi{
+    color: #19132E;
+    font-size: 1.25vw;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    padding-top: 2.15vmin;
+}
+.skill{
+    color: #8B7DB9;
+    font-size: 2.03vw;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.skill-line{
+    border: 0.1vw solid #8B7DB9;
+    border-radius: 1.5px;
+    width: 70vw;
+}
+.skill-yazi{
+    color: #19132E;
+    font-size: 1.25vw;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    padding-top: 2.15vmin;
+}
+.container{
+    position: relative;
+}
+.image{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.container:hover .image{
+    opacity: 0.3;
+    transform: scale(1.1);
+}
+.container:hover .middle{
+    opacity: 1;
+}
+.text{
+    color: #19132E;
+    font-size: 1.5625vw;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 800;
+}
+.projects{
+    display: flex;
+    margin-top: 3vmin;
+}
+.proje-column{
+    width: 21,35%;
+}
+.proje-baslik{
+    color: #78C8CF;
+    font-size: 4.06vw;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    margin-top: 7.81vmin;
+}
+.proje-line{
+    border: 0.2vw solid #78C8CF;
+    border-radius: 3px;
+    width: 33vw;
+    margin-left: -20vw;
+}
+.contact{
+    margin-top: 7,8125vw;
+}
+.contact-baslik{
+    color: #78C8CF;
+    font-size: 4.06vw;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    margin-top: 7.8125vw;
+}
+.contact-line{
+    border: 0.2vw solid #78C8CF;
+    border-radius: 3px;
+    width: 30vw;
+    margin-left: -18vw;
+    margin-bottom: 2.1vw;
+}
+.contact-madde{
+    color: #8B7DB9;
+    font-size: 2.03125vw;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-align: right;
+}
+.contact-yazi{
+    margin-top: 1.1vmin;
+    color: #19132E;
+    font-size: 1.25vw;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    padding-top: -10.575vw;
+    text-align: right;
+}
+.phone-line{
+    margin-top: -1.1vmin;
+    border: 0.1vw solid #8B7DB9;
+    border-radius: 1.5px;
+    width: 23vw;
+    margin-left:58vw;
+}
+.mail-line{
+    margin-top: -1.1vmin;
+    border: 0.1vw solid #8B7DB9;
+    border-radius: 1.5px;
+    width: 23vw;
+    margin-left:59vw;
+}
+.linkedin-line{
+    margin-top: -1.1vmin;
+    border: 0.1vw solid #8B7DB9;
+    border-radius: 1.5px;
+    width: 23vw;
+    margin-left:56.5vw;
+}
+.insta-line{
+    margin-top: -1.1vmin;
+    border:0.1vw solid #8B7DB9;
+    border-radius: 1.5px;
+    width: 23vw;
+    margin-left:55vw;
+}
+.adres-line{
+    margin-top: -1.1vmin;
+    border: 0.1vw solid #8B7DB9;
+    border-radius: 1.5px;
+    width: 23vw;
+    margin-left:57vw;
+}
+.btn{
+	box-shadow: none !important
+}
+.modal-baslik{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #8B7DB9;
+    font-size:  2.08vw;
+    font-weight: 800;
+}
+.modal-yazi{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #19132E;
+    font-size: 1.041vw;
+}
+.resume{
+    margin-left: 2vmin;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #19132E;
+    font-size: 1.041vw;
+    margin-top: 77vmin;
+}
